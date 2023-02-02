@@ -1,0 +1,35 @@
+/*
+    @file main.css
+    contributors: Carina Adrianzen, Alex Ramos
+    last date modified: 2/1/23
+*/
+
+body {
+    background-color: #E7D7C1;
+    margin: 0%;
+}
+
+
+/*navigation*/
+li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A78A7F;
+}
+
+li a {
+    height: 60px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 14px 16px;
+    margin: 0%;
+    text-decoration: none;
+}
