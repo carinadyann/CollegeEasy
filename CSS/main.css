@@ -67,3 +67,15 @@ img {
     width: auto;
     margin: 20px;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 20%;
+    height: 200px;
+    text-align: left;
+    vertical-align: top;
+}
