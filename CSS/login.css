@@ -1,3 +1,23 @@
-﻿body {
+﻿.loginContainer{
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+.SignUpContainer{
+    background-color: #735751;
+    margin-left: 24px;
+    border-radius: 50px;
 }
 
+.EmailAndPassword {
+    background-color: #A78A7F;
+    width: 490px;
+    height: 67px;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+.button{
+    background-color: #81271B;
+    color: white;
+}
