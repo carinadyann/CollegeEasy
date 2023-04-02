@@ -6,10 +6,18 @@
 .SignUpContainer{
     background-color: #735751;
     margin-left: 24px;
+    margin-right: 24px;
     border-radius: 50px;
+}
+.SignUp{
+    margin: auto;
+    width: 35%;
 }
 
 .EmailAndPassword {
+    margin: auto;
+    width: 50%;
+    text-align: center;
     background-color: #A78A7F;
     width: 490px;
     height: 67px;
@@ -17,7 +25,29 @@
     font-size: 24px;
 }
 
-.button{
+button{
     background-color: #81271B;
     color: white;
+    border-radius: 30px;
 }
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    text-decoration: underline;
+  }
