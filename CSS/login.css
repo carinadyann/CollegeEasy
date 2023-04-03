@@ -14,24 +14,37 @@
     width: 35%;
 }
 
-.EmailAndPassword {
-    margin: auto;
+input[type=text] {
     width: 50%;
-    text-align: center;
-    background-color: #A78A7F;
-    width: 490px;
-    height: 67px;
-    border-radius: 50px;
-    font-size: 24px;
+    padding: 12px 20px;
+    margin-left: 75%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: #81271B;
+    color: white;
 }
 
 button{
+    margin: auto;
+    width: 25%;
     background-color: #81271B;
     color: white;
     border-radius: 30px;
 }
 
+.forgotpassword{
+    margin: auto;
+    width: 25%;
+}
 
+a{
+    margin: auto;
+    width: 50%;
+    padding: 16px 32px;
+    border: none;
+}
 a:link {
     color: white;
     text-decoration: none;
@@ -43,11 +56,11 @@ a:link {
   }
   
   a:hover {
-    color: white;
+    color: #81271B;
     text-decoration: underline;
   }
   
   a:active {
-    color: white;
+    color: #81271B;
     text-decoration: underline;
   }
