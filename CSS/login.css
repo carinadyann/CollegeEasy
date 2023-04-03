@@ -3,13 +3,13 @@
     flex-direction: column;
     color: white;
 }
-.SignUpContainer{
+.SignInContainer{
     background-color: #735751;
     margin-left: 24px;
     margin-right: 24px;
     border-radius: 50px;
 }
-.SignUp{
+.SignIn{
     margin-left: 375px;
     width: 35%;
 }
@@ -36,41 +36,44 @@ input[type=text] {
     opacity: 1; /* Firefox */
   }
   .forgotpassword{
-    margin-left: 375px;
+    width: 50%;
+   margin: 50%;
   }
 
 .Button{
+    cursor: pointer;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 0px solid black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family: 'Sans Serif Collection'; font-size: 20px;
     padding: 12px 20px;
     margin: auto;
-    width: 25%;
+    width: 50%;
     background-color: #81271B;
     color: white;
     border-radius: 50px;
 }
 
+.Button:hover{
+  background-color: #A12E1E;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .noaccount{
-  position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  margin: auto;
+  width: 50%;
+    
 }
 .signuplink{
-  position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- 
+  margin: auto;
+  width: 50%;
 }
 
 .forgotandclickhere{
-    margin: auto;
-    width: 50%;
-    padding: 16px 32px;
-    border: none;
+   
 }
 .forgotandclickhere:link {
     color: white;
@@ -83,11 +86,13 @@ input[type=text] {
   }
   
   .forgotandclickhere:hover {
+    cursor: pointer;
     color: #81271B;
     text-decoration: underline;
   }
   
   .forgotandclickhere:active {
+    cursor: pointer;
     color: #81271B;
     text-decoration: underline;
   }
