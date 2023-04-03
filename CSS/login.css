@@ -22,9 +22,16 @@ input[type=text] {
     box-sizing: border-box;
     border: none;
     border-radius: 10px;
-    background-color: #81271B;
+    background-color: #A78A7F;
     color: white;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Sans Serif Collection'; font-size: 20px;
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
 
 button{
     margin: auto;
