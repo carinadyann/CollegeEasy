@@ -12,6 +12,7 @@ label{
 }
 
 .inputs{
+    font-family: 'Sans Serif Collection';
     font-size: 20px;
     font-weight: bold;
     padding: 20px 20px;
@@ -21,6 +22,14 @@ label{
     border-radius: 50px;
     background-color: #A78A7F;
     color: white;
+    width: 75%;
+}
+#city{
+    width: 35%;
+}
+#zipcode{
+   margin-left: 5%;
+    width: 35%;
 }
 
 .Button{
@@ -31,13 +40,19 @@ label{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-family: 'Sans Serif Collection'; font-size: 20px;
     padding: 12px 20px;
-    margin: auto;
-    width: 25%;
+    width: 50%;
     background-color: #81271B;
     color: white;
     border-radius: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 80%;
 }
+
+.Button:hover{
+    background-color: #A12E1E;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 
 ::placeholder{
     color: white;
@@ -52,9 +67,22 @@ label{
     grid-row-gap: 20px;
 }
 
-    
-.formdiv1 { grid-area: 1 / 1 / 2 / 2; }
-.formdiv2 { grid-area: 1 / 2 / 2 / 3; }
-.formdiv3 { grid-area: 2 / 1 / 3 / 2; }
-.formdiv4 { grid-area: 2 / 2 / 3 / 3; }
+.formdiv1 
+{ 
+    margin-left: 15%;
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.formdiv2 { 
+    margin-left: 15%;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.formdiv3 { 
+    margin-left: 15%;
+    grid-area: 2 / 1 / 3 / 2; }
+.formdiv4 { 
+    margin-left: 15%;
+    grid-area: 2 / 2 / 3 / 3; 
+}
 
