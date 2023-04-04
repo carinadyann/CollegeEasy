@@ -36,11 +36,14 @@ input[type=text] {
     opacity: 1; /* Firefox */
   }
   .forgotpassword{
-    width: 50%;
-   margin: 50%;
+    text-align: center; 
+    border-style: solid;
+    line-height: 100px;
+    margin: auto;
   }
 
 .Button{
+
     cursor: pointer;
     position: relative;
     top: 50%;
@@ -51,7 +54,7 @@ input[type=text] {
     font-family: 'Sans Serif Collection'; font-size: 20px;
     padding: 12px 20px;
     margin: auto;
-    width: 50%;
+    width: 25%;
     background-color: #81271B;
     color: white;
     border-radius: 50px;
@@ -63,13 +66,11 @@ input[type=text] {
 }
 
 .noaccount{
-  margin: auto;
-  width: 50%;
-    
+  text-align: center; 
 }
 .signuplink{
-  margin: auto;
-  width: 50%;
+  text-align: center;
+  line-height: 100px;
 }
 
 .forgotandclickhere{
