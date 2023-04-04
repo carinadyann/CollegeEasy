@@ -28,6 +28,7 @@ input[type=text] {
     border-radius: 50px;
     background-color: #A78A7F;
     color: white;
+    opacity: 60%;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
