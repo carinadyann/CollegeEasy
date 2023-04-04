@@ -11,6 +11,7 @@
     
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/main.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/signup.css">
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +22,7 @@
 </head>
 <body>
     <script src="" async defer></script>
+
     <!--navigation-->
     <ul>
         <!--right-->
@@ -36,7 +38,46 @@
 
     </ul>
 
-    <br><br>
+    <!--Sign Up Header-->
+    <center><h1 style="color: #81271B; margin-top: 50px; margin-bottom: 50px;">Sign Up</h1></center>
+
+    <!--SignUp Header-->
+    <div class="SignUpContainer">
+
+        <!--SignUp form-->
+        <form>
+
+            <!--Name-->
+            <div>
+             <label>Name</label>
+             <input class="inputs" type="text" id="firstname" name="firstname" placeholder="First Name">
+             <input class="inputs" type="text" id="lastname" name="lastname" placeholder="Last Name">
+            </div>
+
+            <!--Address-->
+            <div>
+             <label>Address</label>
+             <input class="inputs" type="text" id="streetaddress" name="streetaddress" placeholder="Street Address (Apt #)">
+             <input class="inputs" type="text" id="city" name="city" placeholder="City">
+             <input class="inputs" type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
+            </div>
+
+            <!--Email or Phone-->
+            <div>
+                <label>Email or Phone</label>
+                <input class="inputs" type="text" id="email" name="email" placeholder="Email or Phone Number">
+                <input class="inputs" type="text" id="confirmemailornumber" name="confirmemailornumber" placeholder="Confirm Email or Phone Number">
+            </div>
+            
+            <!--Password-->
+            <div>
+                <label>Password</label>
+                <input class="inputs" type="text" id="password" name="password" placeholder="Password">
+                <input class="inputs" type="text" id="confirmpassword" name="confirmpassword" placeholder=" Confirm Password">
+            </div>
+
+        </form>
+     </div>
 
     <footer>
 
