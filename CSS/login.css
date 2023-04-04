@@ -36,10 +36,10 @@ input[type=text] {
     opacity: 1; /* Firefox */
   }
   .forgotpassword{
-    text-align: center; 
-    border-style: solid;
-    line-height: 100px;
-    margin: auto;
+    font-weight: bold;
+    display: block;
+    margin-left: 375px;
+    margin-bottom: 5%;
   }
 
 .Button{
@@ -66,11 +66,15 @@ input[type=text] {
 }
 
 .noaccount{
+  display: block;
   text-align: center; 
 }
 .signuplink{
-  text-align: center;
-  line-height: 100px;
+  display: block;
+  text-align: center; 
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5%;
 }
 
 .forgotandclickhere{
