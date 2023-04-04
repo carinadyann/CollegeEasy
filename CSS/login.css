@@ -44,7 +44,6 @@ input[type=text] {
   }
 
 .Button{
-
     cursor: pointer;
     position: relative;
     top: 50%;
@@ -78,9 +77,7 @@ input[type=text] {
   margin-bottom: 5%;
 }
 
-.forgotandclickhere{
-   
-}
+
 .forgotandclickhere:link {
     color: white;
     text-decoration: none;
