@@ -1,24 +1,24 @@
 ﻿<!--
-    @file: index.html
+    @file: signup.html
     contributors: Carina Adrianzen, Alejandro Ramos
-    last date modified: 2/14/23
+    last date modified: 4/16/23
 -->
 
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="icon" type="image/x-icon" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
-    
+
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/main.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/index.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/signup.css">
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>College Easy</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/x-icon" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign Up</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 </head>
 <body>
     <script src="" async defer></script>
@@ -39,7 +39,7 @@
     </ul>
 
     <!--Sign Up Header-->
-    <center><h1 style="color: #81271B; margin-top: 50px; margin-bottom: 50px;">Sign Up</h1></center>
+    <h1 class="red-header">Sign Up</h1>
 
     <!--SignUp Header-->
     <div class="SignUpContainer">
@@ -49,38 +49,38 @@
 
             <!--Name-->
             <div class="formdiv1">
-             <label><h1>Name:</h1></label>
-             <input class="inputs" type="text" id="firstname" name="firstname" placeholder="First Name">
-             <input class="inputs" type="text" id="lastname" name="lastname" placeholder="Last Name">
+                <label><h1 class="white-header">Name:</h1></label>
+                <input class="inputs" type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                <input class="inputs" type="text" id="lastname" name="lastname" placeholder="Last Name" required>
             </div>
 
             <!--Address-->
             <div class="formdiv2">
-             <label><h1>Address:</h1></label>
-             <input class="inputs" type="text" id="streetaddress" name="streetaddress" placeholder="Street Address (Apt #)">
-             <input class="inputs" type="text" id="city" name="city" placeholder="City">
-             <input class="inputs" type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
+                <label><h1 class="white-header">Address:</h1></label>
+                <input class="inputs" type="text" id="streetaddress" name="streetaddress" placeholder="Street Address (Apt #)" required>
+                <input class="inputs" type="text" id="city" name="city" placeholder="City" required>
+                <input class="inputs" type="text" id="zipcode" name="zipcode" placeholder="Zip Code" required>
             </div>
 
             <!--Email or Phone-->
             <div class="formdiv3">
-                <label><h1>Email or Phone:</h1></label>
-                <input class="inputs" type="text" id="email" name="email" placeholder="Email or Phone Number">
-                <input class="inputs" type="text" id="confirmemailornumber" name="confirmemailornumber" placeholder="Confirm Email or Phone Number">
+                <label><h1 class="white-header">Email or Phone:</h1></label>
+                <input class="inputs" type="text" id="email" name="email" placeholder="Email or Phone Number" required>
+                <input class="inputs" type="text" id="confirmemailornumber" name="confirmemailornumber" placeholder="Confirm Email or Phone Number" required>
             </div>
-            
+
             <!--Password-->
             <div class="formdiv4">
-                <label><h1>Password:</h1></label>
-                <input class="inputs" type="text" id="password" name="password" placeholder="Password">
-                <input class="inputs" type="text" id="confirmpassword" name="confirmpassword" placeholder=" Confirm Password">
+                <label><h1 class="white-header">Password:</h1></label>
+                <input class="inputs" type="text" id="password" name="password" placeholder="Password" required>
+                <input class="inputs" type="text" id="confirmpassword" name="confirmpassword" placeholder=" Confirm Password" required>
             </div>
-            
+
             <!-- Button -->
             <input href="index.html" class="Button" type="submit" value="Sign Up">
 
         </form>
-     </div>
+    </div>
 
     <footer>
 
@@ -89,9 +89,9 @@
 
             <center><h1><u>Contact</u></h1></center>
 
-            <table>
+            <table class="contact-table">
                 <tr>
-                    <td>
+                    <td class="contact-td">
                         <h1 style="font-family: 'Sans Serif Collection'; font-size: 20px"><u>Phone:</u></h1>
                         <p class="contactText">(123) 465 - 7890</p>
 
@@ -99,12 +99,11 @@
                         <p class="contactText">collegeeasy@gmail.com</p>
                     </td>
 
-                    <td>
+                    <td class="contact-td">
                         <h1 style="font-family: 'Sans Serif Collection'; font-size: 20px; padding-left: 50%;"><u>Mailing Address:</u></h1>
                         <p class="contactText" style="padding-left: 50%;">123 University Dr<br>Irvine, CA<br>92612</p>
                     </td>
                 </tr>
-
             </table>
 
         </div>

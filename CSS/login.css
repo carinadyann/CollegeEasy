@@ -1,4 +1,10 @@
-﻿.loginContainer{
+﻿/*
+    @file login.css
+    contributors: Carina Adrianzen, Alejandro Ramos
+    last date modified: 4/16/23
+*/
+
+.loginContainer{
     display:flex;
     flex-direction: column;
     color: white;
