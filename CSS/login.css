@@ -51,8 +51,6 @@ input[type=text] {
 
 .Button{
     cursor: pointer;
-    margin-left: 40%;
-    margin-bottom: 20%;
     border: 0px solid black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-family: 'Sans Serif Collection'; font-size: 20px;
