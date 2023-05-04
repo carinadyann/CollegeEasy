@@ -1,4 +1,10 @@
-﻿form{
+﻿/*
+    @file signup.css
+    contributors: Carina Adrianzen, Alejandro Ramos
+    last date modified: 4/16/23
+*/
+
+form{
     background-color: #735751;
     border-radius: 50px;
     color: white;
@@ -67,22 +73,20 @@ label{
     grid-row-gap: 20px;
 }
 
-.formdiv1 
-{ 
+.formdiv1, .formdiv2, .formdiv3, .formdiv4 {
     margin-left: 15%;
-    grid-area: 1 / 1 / 2 / 2; 
+    grid-area: 1 / 1 / 2 / 2;
 }
 
-.formdiv2 { 
-    margin-left: 15%;
+.formdiv2 {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.formdiv3 { 
-    margin-left: 15%;
-    grid-area: 2 / 1 / 3 / 2; }
-.formdiv4 { 
-    margin-left: 15%;
+.formdiv3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.formdiv4 {
     grid-area: 2 / 2 / 3 / 3; 
 }
 

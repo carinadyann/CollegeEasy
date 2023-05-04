@@ -1,7 +1,7 @@
 /*
     @file main.css
-    contributors: Carina Adrianzen, Alex Ramos
-    last date modified: 2/1/23
+    contributors: Carina Adrianzen, Alejandro Ramos
+    last date modified: 4/16/23
 */
 
 body {
@@ -16,8 +16,6 @@ h1 {
     font-size: 40px;
 }
 
-<<<<<<< Updated upstream
-=======
 .red-header {
     color: #81271B;
     text-align: center;
@@ -32,10 +30,15 @@ h1 {
     color: #E7D7C1;
 }
 
->>>>>>> Stashed changes
 .contactText {
     color: white;
     margin-top: 0px;
+}
+
+.storyText {
+    font-size: 20px;
+    color: #81271B;
+    line-height: 1.5;
 }
 
 /*navigation*/
@@ -69,7 +72,7 @@ li a:hover {
 }
 
 /*image*/
-img {
+.logo {
     padding-bottom: 10px;
     height: 80px;
     width: auto;
@@ -95,13 +98,46 @@ img {
     margin: 20px;
 }
 
-table {
+.white-container {
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #BF4342;
+    background-color: white;
+}
+
+.brown-container {
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #735751;
+    background-color: #A78A7F;
+}
+
+.red-container {
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #81271B;
+    background-color: #BF4342;
+}
+
+.photo-container {
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #A78A7F;
+    background-color: #E7D7C1;
+}
+
+/* table */
+.contact-table {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
-td {
+.contact-td {
     width: 20%;
     height: 200px;
     text-align: left;
