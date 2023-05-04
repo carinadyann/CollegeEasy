@@ -34,7 +34,22 @@ input[type=text] {
     border-radius: 50px;
     background-color: #A78A7F;
     color: white;
-    opacity: 60%;
+}
+
+input[type=password] {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Sans Serif Collection'; font-size: 20px;
+  width: 50%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50px;
+  background-color: #A78A7F;
+  color: white;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -59,6 +74,7 @@ input[type=text] {
     color: white;
     border-radius: 50px;
     text-decoration: none;
+    margin-left: 38%;
 }
 
 .Button:hover{
