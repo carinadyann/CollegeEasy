@@ -1,7 +1,7 @@
 ﻿<!--
-    @file: login.html
+    @file: index.html
     contributors: Carina Adrianzen, Alejandro Ramos
-    last date modified: 4/16/23
+    last date modified: 2/14/23
 -->
 
 <!DOCTYPE html>
@@ -14,12 +14,12 @@
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/login.css">
 
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>College Easy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 </head>
 <body>
     <script src="" async defer></script>
@@ -31,7 +31,7 @@
         <!--<li style="float: left;"><a href="rankings.html">Rankings</a></li>--> <!--will be in profile page-->
         <!--<li style="float: left;"><a href="quizzes.html">Quizzes</a></li>--> <!--will be in profile page-->
         <!--center-->
-        <li style="float: none; margin-top: 25px; position: absolute; left: 45%"><a href="index.html"><img class="logo" src="../CollegeEasy/Images/CollegeEasyLogo.png"></a></li>
+        <li style="float: none; margin-top: 25px; position: absolute; left: 45%"><a href="index.html"><img src="../CollegeEasy/Images/CollegeEasyLogo.png"></a></li>
 
         <!--left-->
         <li style="margin-top: 50px;margin-top: 50px;"><a href="login.html">Login</a></li> <!--will update to profile pic after login-->
@@ -39,38 +39,36 @@
     </ul>
     <!--Login Container-->
     <div class="loginContainer">
+    
+     <!--Login Header-->
+     <center><h1 style="color: #81271B; margin-top: 50px; margin-bottom: 50px;">Login</h1></center>
+     
+     <!--Login Header-->
+     <div class="SignInContainer">
+        <!--SignIn Header-->
+        <div class="SignIn"><h1>Sign In</h1></div>
 
-        <!--Login Header-->
-        <center><h1 class="red-header">Login</h1></center>
+        <!--Login form-->
+        <form>
+            <div>
+             <input type="text" id="email" name="email" placeholder="Email or Phone Number">
+             <input type="text" id="password" name="password" placeholder="Password">
+            </div>
 
-        <!--Login Header-->
-        <div class="SignInContainer">
-            <!--SignIn Header-->
-            <div class="SignIn"><h1>Sign In</h1></div>
+            <div>
+             <a class="forgotpassword forgotandclickhere" href="signup.html">Forgot Password?</a>
+            </div>
 
-            <!--Login form-->
-            <form>
-                <div>
-                    <input type="text" id="email" name="email" placeholder="Email or Phone Number" required>
-                    <input type="text" id="password" name="password" placeholder="Password" required>
-                </div>
-
-                <div>
-                    <a class="forgotpassword forgotandclickhere" href="signup.html">Forgot Password?</a>
-                </div>
-
-                <div>
-                    <center><button class="Button" href="index.html">Login</button></center>
-                    <br><br>
-                </div>
-
-                <div>
-                    <p class="noaccount">Don't Have an Account?</p>
-                    <br>
-                    <a class="signuplink forgotandclickhere" href="signup.html">Click here to Sign Up</a>
-                </div>
-            </form>
-        </div>
+            <div>
+                <a class="Button" href="index.html">Login</a>
+            </div>
+            
+            <div>
+             <p class="noaccount">Don't Have an Account?</p>
+             <a class="signuplink forgotandclickhere" href="signup.html">Click here to Sign Up</a>
+            </div>
+        </form>
+     </div>
 
     </div>
 
@@ -81,9 +79,9 @@
 
             <center><h1><u>Contact</u></h1></center>
 
-            <table class="contact-table">
+            <table>
                 <tr>
-                    <td class="contact-td">
+                    <td>
                         <h1 style="font-family: 'Sans Serif Collection'; font-size: 20px"><u>Phone:</u></h1>
                         <p class="contactText">(123) 465 - 7890</p>
 
@@ -91,11 +89,12 @@
                         <p class="contactText">collegeeasy@gmail.com</p>
                     </td>
 
-                    <td class="contact-td">
+                    <td>
                         <h1 style="font-family: 'Sans Serif Collection'; font-size: 20px; padding-left: 50%;"><u>Mailing Address:</u></h1>
                         <p class="contactText" style="padding-left: 50%;">123 University Dr<br>Irvine, CA<br>92612</p>
                     </td>
                 </tr>
+
             </table>
 
         </div>
