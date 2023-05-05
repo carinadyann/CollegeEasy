@@ -3,3 +3,11 @@
     contributors: Carina Adrianzen, Alejandro Ramos
     last date modified: 4/16/23
 */
+
+.light-header-s {
+    color: #E7D7C1;
+}
+
+.light-header-s a:hover {
+    text-decoration: underline;
+}
