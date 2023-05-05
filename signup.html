@@ -8,32 +8,33 @@
 <html>
 <head>
     <link rel="icon" type="image/x-icon" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
-    
+
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/main.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/index.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/signup.css">
+    <script src="../CollegeEasy/JS/main.js" defer></script>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>College Easy</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/x-icon" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>College Easy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 </head>
-<body>
+<body onload="updateNavigationBar()">
     <script src="" async defer></script>
 
     <ul>
         <!--right-->
         <li style="float: left; margin-top: 50px;"><a href="index.html">Home</a></li>
-        <li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>
+        <!--<li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>-->
         <!--<li style="float: left;"><a href="rankings.html">Rankings</a></li>--> <!--will be in profile page-->
         <!--<li style="float: left;"><a href="quizzes.html">Quizzes</a></li>--> <!--will be in profile page-->
         <!--center-->
         <li style="float: none; margin-top: 25px; position: absolute; left: 45%"><a href="index.html"><img class="logo" src="../CollegeEasy/Images/CollegeEasyLogo.png"></a></li>
 
         <!--left-->
-        <li style="margin-top: 50px;"><a href="login.html">Login</a></li> <!--will update to profile pic after login-->
+        <li style="margin-top: 50px;"><a href="login.html" id="profile">Login</a></li> <!--will update to profile pic after login-->
 
     </ul>
 
@@ -48,17 +49,17 @@
 
             <!--Name-->
             <div class="formdiv1">
-             <label><h1>Name:</h1></label>
-             <input class="inputs" type="text" id="firstname" name="firstname" placeholder="First Name">
-             <input class="inputs" type="text" id="lastname" name="lastname" placeholder="Last Name">
+                <label><h1>Name:</h1></label>
+                <input class="inputs" type="text" id="firstname" name="firstname" placeholder="First Name">
+                <input class="inputs" type="text" id="lastname" name="lastname" placeholder="Last Name">
             </div>
 
             <!--Address-->
             <div class="formdiv2">
-             <label><h1>Address:</h1></label>
-             <input class="inputs" type="text" id="streetaddress" name="streetaddress" placeholder="Street Address (Apt #)">
-             <input class="inputs" type="text" id="city" name="city" placeholder="City">
-             <input class="inputs" type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
+                <label><h1>Address:</h1></label>
+                <input class="inputs" type="text" id="streetaddress" name="streetaddress" placeholder="Street Address (Apt #)">
+                <input class="inputs" type="text" id="city" name="city" placeholder="City">
+                <input class="inputs" type="text" id="zipcode" name="zipcode" placeholder="Zip Code">
             </div>
 
             <!--Email or Phone-->
@@ -67,19 +68,21 @@
                 <input class="inputs" type="text" id="email" name="email" placeholder="Email or Phone Number">
                 <input class="inputs" type="text" id="confirmemailornumber" name="confirmemailornumber" placeholder="Confirm Email or Phone Number">
             </div>
-            
+
             <!--Password-->
             <div class="formdiv4">
                 <label><h1>Password:</h1></label>
                 <input class="inputs" type="password" id="password" name="password" placeholder="Password">
                 <input class="inputs" type="password" id="confirmpassword" name="confirmpassword" placeholder=" Confirm Password">
             </div>
-            
+
             <!-- Button -->
-            <input href="index.html" class="Button" type="submit" value="Sign Up">
+            <div>
+                <button class="Button" href="index.html" onclick="ChangeText('profile')">Sign Up</button>
+            </div>
 
         </form>
-     </div>
+    </div>
 
     <footer>
 

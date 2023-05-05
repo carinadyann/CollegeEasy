@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/main.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/settings.css">
+    <script src="../CollegeEasy/JS/main.js" defer></script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,20 +20,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 </head>
-<body>
+<body onload="updateNavigationBar()">
     <script src="" async defer></script>
     <!--navigation-->
     <ul>
         <!--right-->
         <li style="float: left; margin-top: 50px;"><a href="index.html">Home</a></li>
-        <li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>
+        <!--<li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>-->
         <!--<li style="float: left;"><a href="rankings.html">Rankings</a></li>--> <!--will be in profile page-->
         <!--<li style="float: left;"><a href="quizzes.html">Quizzes</a></li>--> <!--will be in profile page-->
         <!--center-->
         <li style="float: none; margin-top: 25px; position: absolute; left: 45%"><a href="index.html"><img class="logo" src="../CollegeEasy/Images/CollegeEasyLogo.png"></a></li>
 
         <!--left-->
-        <li style="margin-top: 50px;"><a href="login.html">Login</a></li> <!--will update to profile pic after login-->
+        <li style="margin-top: 50px;"><a href="login.html" id="profile">Login</a></li> <!--will update to profile pic after login-->
 
     </ul>
 
@@ -49,7 +50,7 @@
                         <h1 class="white-header" style="text-decoration: underline; text-align: left">Account Settings:</h1>
                         <h2 class="light-header-s"><a href="">Change Profile Picture</a></h2>
                         <h2 class="light-header-s"><a href="">Switch Accounts</a></h2>
-                        <h2 class="light-header-s"><a href="">Logout</a></h2>
+                        <h2 class="light-header-s"><a id="logOutButton" onclick="handleLogout(); resetNavBarToLogin();">Logout</a></h2>
                     </div>
                 </td>
                 <td style="vertical-align: top; padding-left: 50%">

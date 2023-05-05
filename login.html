@@ -10,38 +10,38 @@
     <link rel="icon" type="image/x-icon" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/main.css">
-    <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/index.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/login.css">
+    <script src="../CollegeEasy/JS/main.js" defer></script>
 
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>College Easy</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>College Easy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 </head>
-<body>
+<body onload="updateNavigationBar()">
     <script src="" async defer></script>
     <!--navigation-->
     <ul>
         <!--right-->
         <li style="float: left; margin-top: 50px;"><a href="index.html">Home</a></li>
-        <li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>
+        <!--<li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>-->
         <!--<li style="float: left;"><a href="rankings.html">Rankings</a></li>--> <!--will be in profile page-->
         <!--<li style="float: left;"><a href="quizzes.html">Quizzes</a></li>--> <!--will be in profile page-->
         <!--center-->
         <li style="float: none; margin-top: 25px; position: absolute; left: 45%"><a href="index.html"><img class="logo" src="../CollegeEasy/Images/CollegeEasyLogo.png"></a></li>
 
         <!--left-->
-        <li style="margin-top: 50px;"><a href="login.html">Login</a></li> <!--will update to profile pic after login-->
+        <li style="margin-top: 50px;"><a href="login.html" id="profile">Login</a></li> <!--will update to profile pic after login-->
 
     </ul> 
     <!--Login Container-->
     <div class="loginContainer">
     
      <!--Login Header-->
-     <center><h1 style="color: #81271B; margin-top: 50px; margin-bottom: 50px;" id="profile">Login</h1></center>
+     <center><h1 style="color: #81271B; margin-top: 50px; margin-bottom: 50px;">Login</h1></center>
      
      <!--Login Header-->
      <div class="SignInContainer">
