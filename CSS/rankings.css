@@ -3,3 +3,105 @@
     contributors: Carina Adrianzen, Alejandro Ramos
     last date modified: 4/16/23
 */
+
+.rankings-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.rank-numbers{
+    color: #E7D7C1;
+}
+
+.rank-1 { 
+    background-color: #A78A7F;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #735751;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 1 / 1 / 2 / 2;
+    
+ }
+.rank-2 { 
+    background-color: #A78A7F;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #735751;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 2 / 1 / 3 / 2; 
+}
+.rank-3 { 
+    background-color: #A78A7F;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #735751;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 3 / 1 / 4 / 2;
+ }
+.rank-4 { 
+    background-color: #A78A7F;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #735751;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 4 / 1 / 5 / 2; 
+}
+
+.schools{
+    margin-left: 100px;
+    color: white;
+}
+.school-1 { 
+    background-color: #BF4342;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #81271B;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.school-2 { 
+    background-color: #BF4342;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #81271B;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 2 / 2 / 3 / 3; 
+}
+.school-3 { 
+    background-color: #BF4342;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #81271B;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 3 / 2 / 4 / 3; 
+}
+.school-4 { 
+    background-color: #BF4342;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #81271B;
+    border-radius: 100px;
+    padding: 30px;
+    margin-bottom: 30px;
+    grid-area: 4 / 2 / 5 / 3; 
+}
