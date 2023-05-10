@@ -14,6 +14,17 @@ Alejandro Ramos: 887097046
 ## Home Page
 <img width="1440" alt="home-page" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/b207c599-6727-485f-baeb-54dd91a6e1d0">
 
+## Login Page
+<img width="1440" alt="login" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/f8d85e29-c63d-4d78-9b23-d360fd66899f">
 
+## Sign Up Page
+<img width="1440" alt="sign-up" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/777ab735-afb7-42e8-9e53-b7ed88c85b77">
 
+## Profile Page
+<img width="1433" alt="profile" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/f9600212-1a72-4fee-b19f-b342a27c32ce">
 
+## Pros and Cons Page
+<img width="1440" alt="pros-and-cons" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/f77f9597-ac45-4bec-a759-f7958aa90392">
+
+## Rankings
+<img width="1440" alt="rankings" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/4a29dc75-be76-40a4-b5ee-5a3f24d4fdae">
