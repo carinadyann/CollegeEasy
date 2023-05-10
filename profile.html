@@ -19,20 +19,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 </head>
-<body>
+<body onload="updateNavigationBar()">
     <script src="" async defer></script>
     <!--navigation-->
     <ul>
         <!--right-->
         <li style="float: left; margin-top: 50px;"><a href="index.html">Home</a></li>
-        <li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>
+        <!--<li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>-->
         <!--<li style="float: left;"><a href="rankings.html">Rankings</a></li>--> <!--will be in profile page-->
         <!--<li style="float: left;"><a href="quizzes.html">Quizzes</a></li>--> <!--will be in profile page-->
         <!--center-->
         <li style="float: none; margin-top: 25px; position: absolute; left: 45%"><a href="index.html"><img class="logo" src="../CollegeEasy/Images/CollegeEasyLogo.png"></a></li>
 
         <!--left-->
-        <li style="margin-top: 50px;"><a href="login.html">Login</a></li> <!--will update to profile pic after login-->
+        <li style="margin-top: 50px;"><a href="profile.html" id="profile">Profile</a></li> <!--will update to profile pic after login-->
 
     </ul>
 
@@ -48,6 +48,7 @@
                 <p style="font-size: 20px; color: white"><u>Email:</u><span style="font-size: 20px; color: #81271B; padding-left: 10px">johndoe@gmail.com</span></p>
                 <p style="font-size: 20px; color: white"><u>Password:</u><span style="font-size: 20px; color: #81271B; padding-left: 10px">(123) *** - ****</span></p>
                 <p style="font-size: 20px; color: white"><u>Major:</u><span style="font-size: 20px; color: #81271B; padding-left: 10px">Undecided</span></p>
+                <center><a class="white-header" style="text-decoration: underline; color: #735751" href="settings.html">Settings</a></center>
             </td>
             <td class="red-container" style="width: 75%">
                 <table style="margin-left: auto; margin-right: auto" cellspacing="50">

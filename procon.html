@@ -1,7 +1,7 @@
 <!--
     @file: procon.html
     contributors: Carina Adrianzen, Alejandro Ramos
-    last date modified: 5/3/23
+    last date modified: 5/4/23
 -->
 
 <!DOCTYPE html>
@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/main.css">
     <link rel="stylesheet" type="text/css" href="../CollegeEasy/CSS/index.css">
+    <script src="../CollegeEasy/JS/main.js" defer></script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,26 +20,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CollegeEasy/Images/CollegeEasyFavicon.png">
 </head>
-<body>
+<body onload="updateNavigationBar()">
     <script src="" async defer></script>
     <!--navigation-->
     <ul>
         <!--right-->
         <li style="float: left;"><a href="index.html">Home</a></li>
-        <li style="float: left;"><a href="settings.html">Settings</a></li>
+        <!--<li style="float: left; margin-top: 50px;"><a href="settings.html">Settings</a></li>-->
         <!--<li style="float: left;"><a href="rankings.html">Rankings</a></li>--> <!--will be in profile page-->
         <!--<li style="float: left;"><a href="quizzes.html">Quizzes</a></li>--> <!--will be in profile page-->
         <!--center-->
         <li style="float: none; position: absolute; left: 45%"><a href="index.html"><img class="logo" src="../CollegeEasy/Images/CollegeEasyLogo.png"></a></li>
 
         <!--left-->
-        <li><a href="login.html">Login</a></li> <!--will update to profile pic after login-->
+        <li style="margin-top: 50px;"><a href="login.html" id="profile">Login</a></li> <!--will update to profile pic after login-->
 
     </ul>
 
     <br><br>
 
     <h1 class="red-header">Pros and Cons</h1>
+
+    <center>
+        <label for="schools" style="color: #81271B; font-size: 20px; text-decoration: underline; padding-right:10px">School:</label>
+        <select name="schools" id="schools" style="border: 2px solid #81271B; color: #81271B; font-size: 15px">
+            <option value="csuf">California State University Fullerton</option>
+            <option value="ucb">University of Californa Berkeley</option>
+            <option value="sdsu">San Diego State University</option>
+            <option value="ucsb">University of California Santa Barbara</option>
+            <option value="uci">University of California Irvine</option>
+        </select>
+    </center>
+
+    <table style="margin-left: auto; margin-right: auto; padding: 20px; width: 100%" cellspacing="50">
+        <tr>
+            <td class="brown-container" style="width: 50%; text-align: center; vertical-align: top">
+                <div>
+                    <h1 class="white-header">Pros</h1>
+                    <table style="margin-left: auto; margin-right: auto; padding: 20px" cellspacing="20">
+                        <tr>
+                            <td class="brown-container" style="border-color: white">
+                                <h2 class="white-header">Lots of Housing</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="brown-container" style="border-color: white">
+                                <h2 class="white-header">Near Disneyland</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="brown-container" style="border-color: white">
+                                <h2 class="white-header">Close to Home</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="white-header" style="text-decoration: underline" href="">Edit</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td class="red-container" style="width: 50%; text-align: center; vertical-align: top">
+                <div>
+                    <h1 class="white-header">Cons</h1>
+                    <table style="margin-left: auto; margin-right: auto; padding: 20px" cellspacing="20">
+                        <tr>
+                            <td class="red-container" style="border-color: white">
+                                <h2 class="white-header">Parking Pass</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-container" style="border-color: white">
+                                <h2 class="white-header">Limited Parking</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-container" style="border-color: white">
+                                <h2 class="white-header">Food Accessibility</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="white-header" style="text-decoration: underline" href="">Edit</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
 
     <footer>
 
