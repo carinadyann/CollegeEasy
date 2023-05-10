@@ -8,7 +8,7 @@ In addition, the website provides pros and cons for each college on the list, gi
 Overall, College Decision Maker is a valuable resource for high schoolers who are looking to make an informed decision about their college education. It provides personalized recommendations based on their personality traits and preferences, making the college decision process less overwhelming and more enjoyable.
 
 ## Team
-Carina Adrianzen: 887226447
+Carina Adrianzen: 887226447 \
 Alejandro Ramos: 887097046
 
 ## Home Page
@@ -26,5 +26,5 @@ Alejandro Ramos: 887097046
 ## Pros and Cons Page
 <img width="1440" alt="pros-and-cons" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/f77f9597-ac45-4bec-a759-f7958aa90392">
 
-## Rankings
+## Rankings Page
 <img width="1440" alt="rankings" src="https://github.com/carinadyann/CollegeEasy/assets/78000095/4a29dc75-be76-40a4-b5ee-5a3f24d4fdae">
